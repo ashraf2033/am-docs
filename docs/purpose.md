@@ -1,0 +1,3 @@
+This document is intended to describe functionalities of the Audit Component part of Integrity and Assurance Module.
+
+The Audit Component described on this document is an automation of UNHCR manual process of the risk-based selection of projects, which includes selection of projects subject to audit, engagement of auditors, field and partner interaction among stakeholders during field audit process (UNHCR HQs, UNHCR Field, Auditors, Partner), tracking filed audit process, reporting and follow-up of audit results, managing key performance indicators, coordinated flow of notifications and communications, documentation hub and work areas, streamlined processes from inception to end, instant views with dashboards and analysis facilities

@@ -1,0 +1,17 @@
+site_name: Integrity and Assurance Module User Guide
+
+
+theme:
+  name: material
+
+pages:
+  - Introduction : index.md
+  - Purpose : purpose.md
+  - High Level Design : high-level.md
+  - Getting Started : getting-started.md
+  - Dashboard : dashboard.md
+  - Field Assessment : field-assessment.md
+  - Project Selection : project-selection.md
+  - Auditor Selection : auditor-selection.md
+  - Audit Process : audit.md
+  - User Management : user-management.md
