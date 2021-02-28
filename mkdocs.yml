@@ -3,7 +3,7 @@ site_name: Integrity and Assurance Module User Guide
 
 theme:
   name: material
-
+  logo: img/logo.png
 pages:
   - Introduction : index.md
   - Purpose : purpose.md
@@ -15,3 +15,6 @@ pages:
   - Auditor Selection : auditor-selection.md
   - Audit Process : audit.md
   - User Management : user-management.md
+
+extra_css:
+  - stylesheets/extra.css

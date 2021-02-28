@@ -13,7 +13,7 @@ Preliminary List workflow includes 3 states:
 
 - Under Preparation
 - Under Review
-- Unser Approval
+- Under Approval
 
 ### Under preparation stage
 Initially the PL contains only the project agreements with overall risk rating above the given  risk threshold. At this stage HQ Preparer can
@@ -140,5 +140,111 @@ When the HQ Reviewr send the PL to approval, en email will notify all HQ Approve
 
 The Interim List page contains all project agreements that made it to the finalized Preliminary list.
 
-The content of the Interim List (Project Agreements finalized for a specific year) is modified by the Field Officers by adding or removing project aggreements 
+The content of the Interim List (Project Agreements finalized for a specific year) is modified by the Field Officers by adding or removing project aggreements
+
+Interim List workflow includes 2 states:
+
+- Under Review
+- Under Approval
+
+### Under Review
+
+In this section the Interim List contains the project agreements selected during the preliminary phase. On this stage Field Office Reviewers can view the projects of their Business unit in the inerim List.
+
+**Features available on this stage:**
+
+- **Filtering Interim List**
+
+PL can be filtered by:
+
+    1. Partner
+    2. Project Selection Year
+
+
+
+- **manually include\exclued Projects from the list**
+Field officer can include or exclude projects from his Business unit list
+- **Send Interim List to Review**
+When the Field officer complete the review of the Interim List will send the list to the next stage by clicking the **“Send for Approval”** button.
+
+When Send for Approval is selected, the state of the Interim list will change in Under Approval.
+
+- **Remind Field Offices to fininsh their review**
+HQ user who is monitoring the Interim list can click on remind button to remind all or some field Offices to finish their review.
+
+**Notification**
+Notification is sent when the Field Office Reviewer of a business unit complete the
+Interim assessment as Field Office reviewer and send to approval to Field Office Approver the Interim selection of PPA.
+
+### Under Approval
+
+**Features available on this stage:**
+
+- **Filtering Interim List**
+
+PL can be filtered by:
+
+  1. Partner
+  2. Project Selection Year
+
+
+- **Approve/Decline the new list of Projects**
+Field Office Approver will review the list and he can approve it, or reject it with notes to the reviewer on what's needs to be adjusted.
+
+- **End the Interim phase**
+HQ user who is monitoring the Interim list can end the Interim phase after all field Offices approve their lists, initiating the begining of the Final phase.
+
 ## Final List
+The Final List page contains all project agreements that made it to the finalized Preliminary list.
+
+The content of the Final List (Project Agreements finalized for a specific year) is modified by the HQ Users by adding or removing project aggreements
+
+Final List workflow includes 2 states:
+
+- Under Review
+- Under Approval
+
+### Under Review
+
+In this section the Final List contains the project agreements selected during the Interim phase.
+
+**Features available on this stage:**
+
+- **Filtering Final List**
+
+Final List can be filtered by:
+
+    1. Partner
+    2. Project Selection Year
+    3. Reason PA Included/Excluded
+
+
+
+- **manually include\exclued Projects from the list**
+Field officer can include or exclude projects from his Business unit list
+- **Send Final List to Review**
+When the HQ reviewer completes the review of the Final List. He will send the list to the next stage by clicking the **“Send for Approval”** button.
+
+When Send for Approval is selected, the state of the Final list will change in Under Approval.
+
+
+
+### Under Approval
+
+**Features available on this stage:**
+
+- **Filtering Final List**
+
+Final list can be filtered by:
+
+  1. Partner
+  2. Project Selection Year
+
+
+- **Approve/Decline the new list of Projects**
+HQ Approver will review the list and he can approve it, or reject it with notes to the reviewer on what's needs to be adjusted.
+
+- **End the Final phase**
+ HQ approver can trigger the finalization of the final list to be sent to auditor.
+
+ The "Finalize" button triggers the END of Project Selection workflow and the START of the [Auditor Assignment](auditor-selection.md) workflow.
