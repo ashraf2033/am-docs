@@ -36,6 +36,8 @@
     
     
     
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
     
       
     
@@ -73,8 +75,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="Integrity and Assurance Module User Guide" class="md-header__button md-logo" aria-label="Integrity and Assurance Module User Guide">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <img src="../img/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -156,8 +157,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="Integrity and Assurance Module User Guide" class="md-nav__button md-logo" aria-label="Integrity and Assurance Module User Guide">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <img src="../img/logo.png" alt="logo">
 
     </a>
     Integrity and Assurance Module User Guide
@@ -332,12 +332,52 @@
     Interim List
   </a>
   
+    <nav class="md-nav" aria-label="Interim List">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#under-review" class="md-nav__link">
+    Under Review
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#under-approval" class="md-nav__link">
+    Under Approval
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
   <a href="#final-list" class="md-nav__link">
     Final List
   </a>
+  
+    <nav class="md-nav" aria-label="Final List">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#under-review_1" class="md-nav__link">
+    Under Review
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#under-approval_1" class="md-nav__link">
+    Under Approval
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -457,12 +497,52 @@
     Interim List
   </a>
   
+    <nav class="md-nav" aria-label="Interim List">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#under-review" class="md-nav__link">
+    Under Review
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#under-approval" class="md-nav__link">
+    Under Approval
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
   <a href="#final-list" class="md-nav__link">
     Final List
   </a>
+  
+    <nav class="md-nav" aria-label="Final List">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#under-review_1" class="md-nav__link">
+    Under Review
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#under-approval_1" class="md-nav__link">
+    Under Approval
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -490,7 +570,7 @@ The content of the Preliminary List (Project Agreements finalized for a specific
 <ul>
 <li>Under Preparation</li>
 <li>Under Review</li>
-<li>Unser Approval</li>
+<li>Under Approval</li>
 </ul>
 <h3 id="under-preparation-stage">Under preparation stage</h3>
 <p>Initially the PL contains only the project agreements with overall risk rating above the given  risk threshold. At this stage HQ Preparer can</p>
@@ -624,8 +704,103 @@ When the HQ Approver complete the review of the Preliminary List will finalize t
 <p>When the HQ Reviewr send the PL to approval, en email will notify all HQ Approver that a PL is ready for approval.</p>
 <h2 id="interim-list">Interim List</h2>
 <p>The Interim List page contains all project agreements that made it to the finalized Preliminary list.</p>
-<p>The content of the Interim List (Project Agreements finalized for a specific year) is modified by the Field Officers by adding or removing project aggreements </p>
+<p>The content of the Interim List (Project Agreements finalized for a specific year) is modified by the Field Officers by adding or removing project aggreements</p>
+<p>Interim List workflow includes 2 states:</p>
+<ul>
+<li>Under Review</li>
+<li>Under Approval</li>
+</ul>
+<h3 id="under-review">Under Review</h3>
+<p>In this section the Interim List contains the project agreements selected during the preliminary phase. On this stage Field Office Reviewers can view the projects of their Business unit in the inerim List.</p>
+<p><strong>Features available on this stage:</strong></p>
+<ul>
+<li><strong>Filtering Interim List</strong></li>
+</ul>
+<p>PL can be filtered by:</p>
+<pre><code>1. Partner
+2. Project Selection Year
+</code></pre>
+<ul>
+<li><strong>manually include\exclued Projects from the list</strong>
+Field officer can include or exclude projects from his Business unit list</li>
+<li><strong>Send Interim List to Review</strong>
+When the Field officer complete the review of the Interim List will send the list to the next stage by clicking the <strong>“Send for Approval”</strong> button.</li>
+</ul>
+<p>When Send for Approval is selected, the state of the Interim list will change in Under Approval.</p>
+<ul>
+<li><strong>Remind Field Offices to fininsh their review</strong>
+HQ user who is monitoring the Interim list can click on remind button to remind all or some field Offices to finish their review.</li>
+</ul>
+<p><strong>Notification</strong>
+Notification is sent when the Field Office Reviewer of a business unit complete the
+Interim assessment as Field Office reviewer and send to approval to Field Office Approver the Interim selection of PPA.</p>
+<h3 id="under-approval">Under Approval</h3>
+<p><strong>Features available on this stage:</strong></p>
+<ul>
+<li><strong>Filtering Interim List</strong></li>
+</ul>
+<p>PL can be filtered by:</p>
+<ol>
+<li>Partner</li>
+<li>
+<p>Project Selection Year</p>
+</li>
+<li>
+<p><strong>Approve/Decline the new list of Projects</strong>
+Field Office Approver will review the list and he can approve it, or reject it with notes to the reviewer on what's needs to be adjusted.</p>
+</li>
+<li>
+<p><strong>End the Interim phase</strong>
+HQ user who is monitoring the Interim list can end the Interim phase after all field Offices approve their lists, initiating the begining of the Final phase.</p>
+</li>
+</ol>
 <h2 id="final-list">Final List</h2>
+<p>The Final List page contains all project agreements that made it to the finalized Preliminary list.</p>
+<p>The content of the Final List (Project Agreements finalized for a specific year) is modified by the HQ Users by adding or removing project aggreements</p>
+<p>Final List workflow includes 2 states:</p>
+<ul>
+<li>Under Review</li>
+<li>Under Approval</li>
+</ul>
+<h3 id="under-review_1">Under Review</h3>
+<p>In this section the Final List contains the project agreements selected during the Interim phase.</p>
+<p><strong>Features available on this stage:</strong></p>
+<ul>
+<li><strong>Filtering Final List</strong></li>
+</ul>
+<p>Final List can be filtered by:</p>
+<pre><code>1. Partner
+2. Project Selection Year
+3. Reason PA Included/Excluded
+</code></pre>
+<ul>
+<li><strong>manually include\exclued Projects from the list</strong>
+Field officer can include or exclude projects from his Business unit list</li>
+<li><strong>Send Final List to Review</strong>
+When the HQ reviewer completes the review of the Final List. He will send the list to the next stage by clicking the <strong>“Send for Approval”</strong> button.</li>
+</ul>
+<p>When Send for Approval is selected, the state of the Final list will change in Under Approval.</p>
+<h3 id="under-approval_1">Under Approval</h3>
+<p><strong>Features available on this stage:</strong></p>
+<ul>
+<li><strong>Filtering Final List</strong></li>
+</ul>
+<p>Final list can be filtered by:</p>
+<ol>
+<li>Partner</li>
+<li>
+<p>Project Selection Year</p>
+</li>
+<li>
+<p><strong>Approve/Decline the new list of Projects</strong>
+HQ Approver will review the list and he can approve it, or reject it with notes to the reviewer on what's needs to be adjusted.</p>
+</li>
+<li>
+<p><strong>End the Final phase</strong>
+ HQ approver can trigger the finalization of the final list to be sent to auditor.</p>
+</li>
+</ol>
+<p>The "Finalize" button triggers the END of Project Selection workflow and the START of the <a href="../auditor-selection/">Auditor Assignment</a> workflow.</p>
                 
               
               

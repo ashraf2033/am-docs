@@ -36,6 +36,8 @@
     
     
     
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
     
       
     
@@ -58,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#user-management" class="md-skip">
+        <a href="#auditor-selection" class="md-skip">
           Skip to content
         </a>
       
@@ -73,8 +75,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="Integrity and Assurance Module User Guide" class="md-header__button md-logo" aria-label="Integrity and Assurance Module User Guide">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <img src="../img/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -156,8 +157,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="Integrity and Assurance Module User Guide" class="md-nav__button md-logo" aria-label="Integrity and Assurance Module User Guide">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <img src="../img/logo.png" alt="logo">
 
     </a>
     Integrity and Assurance Module User Guide
@@ -286,9 +286,52 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Auditor Selection
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Auditor Selection
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#worksplit-groups" class="md-nav__link">
+    Worksplit Groups
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assigning-projects-to-audit-firm" class="md-nav__link">
+    Assigning Projects to Audit Firm
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assigning-projects-to-a-reviewer" class="md-nav__link">
+    Assigning Projects to a Reviewer
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -342,6 +385,35 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#worksplit-groups" class="md-nav__link">
+    Worksplit Groups
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assigning-projects-to-audit-firm" class="md-nav__link">
+    Assigning Projects to Audit Firm
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assigning-projects-to-a-reviewer" class="md-nav__link">
+    Assigning Projects to a Reviewer
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -353,15 +425,20 @@
               
                 
                 
-                <h1 id="user-management">User Management</h1>
-<p>The Integrity and Assurance Module - Audit Component that has been tested is an automation of
-UNHCR manual process of the risk-based selection of projects, which includes selection of
-projects to audit, engagement of auditors, field offices and partners interaction among stakeholders
-during audit process (UNHCR HQs, UNHCR Field, Auditors, Partner). The new tool also
-implements online the tracking filed audit process, reporting and follow-up of audit results,
-managing key performance indicators, coordinated flow of notifications and communications,
-documentation hub and work areas, streamlined processes from inception to end, instant views with
-dashboards and analysis facilities</p>
+                <h1 id="auditor-selection">Auditor Selection</h1>
+<p>Auditor Selection is the section where UNHCR HQ users will perform needed actions to Assign the final list of project agreements to be audited. The output of the Auditor Selection workflow is project agreements being assigned to audit firms.</p>
+<p>The workflow starts when HQ users Finalize the <a href="../project-selection/">Project Selection Phase</a>.</p>
+<p>Then a Business units are distributed across Worksplit groups so they can be assigned to audit firms.</p>
+<p>Once an aduit firm is assigned to a project, they can move to the <a href="../audit/">Audit workflow</a> and start auditing the projects they were assigned.</p>
+<h2 id="worksplit-groups">Worksplit Groups</h2>
+<p>HQ Users can distribute Business units so it easier to assign business units with few projects to their audit firm by referring to their worksplit group.
+<img alt="Worksplit Groups" src="../img/audtior-selection-1.gif" /></p>
+<h2 id="assigning-projects-to-audit-firm">Assigning Projects to Audit Firm</h2>
+<p>HQ Users can filter list of project agreements and assigne audit firms to projets by selecting one or more projects and then clicking on edit select, then entering the name of the audit firm from the list.</p>
+<p><img alt="Assigning an audit firm" src="../img/audtior-selection-2.gif" /></p>
+<h2 id="assigning-projects-to-a-reviewer">Assigning Projects to a Reviewer</h2>
+<p>After an Audit firm is assigned a project, the auditor admin should assign the project to one or more reviewers so they can start auditing it.</p>
+<p><img alt="Assigning an Reviewer" src="../img/audtior-selection-3.gif" /></p>
                 
               
               
