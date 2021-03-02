@@ -9,8 +9,6 @@ On the Integrity and Assurance module can operate different types of users and w
 - Auditors
 - Partners
 
-## User Types and Roles
-
 ## User Management features
 - **Centralized Management by HQ Users**: user access and user roles are managed by HQ users. Only users with HQ role (HQ-Preparer, HQ-Reviers, HQ Approver) are enabled to view the User management component on the left menu and are allowed to add/enable/disable/change role of users acessig the Audit Module
 
@@ -20,4 +18,4 @@ On the Integrity and Assurance module can operate different types of users and w
 
 - **Enable/Disable Users**: User added on the system cannot be deleted but instead disabled. Status of a user that has been added to the system can be Active/Not Active
 
-- **Edit User**: users details can be modified (Full Name, Email, User Type, User Role and Country
+- **Edit User**: users details can be modified (Full Name, Email, User Type, User Role and Country)

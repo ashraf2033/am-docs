@@ -124,7 +124,7 @@ Preliminary List can be exported as “.csv” . The exported list will be the l
 - **Notify HQ Preparer of additional changes on Preliminary List**
 If some changes need to be done on the list, HQ Approver can request additional action with a notification containing the list of actions requested by HQ Preparer
 
-- **Receive notification from HQ Reviewr**
+- **Receive notification from HQ Reviewer**
 When HQ Reviewer send the Preliminary List to the Under Approval stage, the HQ Approver is notified by email informing that Preliminary List is ready for Approval
 
 - **Finalize Preliminary List**
@@ -134,7 +134,7 @@ When Finalize button is selected, the Preliminary List workflow is completed and
 
 **Notification:**
 
-When the HQ Reviewr send the PL to approval, en email will notify all HQ Approver that a PL is ready for approval.
+When the HQ Reviewer send the PL to approval, en email will notify all HQ Approver that a PL is ready for approval.
 
 ## Interim List
 

@@ -4,6 +4,7 @@ site_name: Integrity and Assurance Module User Guide
 theme:
   name: material
   logo: img/logo.png
+  favicon: img/favicon.ico
 pages:
   - Introduction : index.md
   - Purpose : purpose.md
