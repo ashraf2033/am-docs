@@ -9,7 +9,7 @@
       
       
       
-      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <link rel="shortcut icon" href="../img/favicon.ico">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.0">
     
     
@@ -35,6 +35,8 @@
       
     
     
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
     
       
@@ -73,8 +75,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="Integrity and Assurance Module User Guide" class="md-header__button md-logo" aria-label="Integrity and Assurance Module User Guide">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <img src="../img/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -156,8 +157,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="Integrity and Assurance Module User Guide" class="md-nav__button md-logo" aria-label="Integrity and Assurance Module User Guide">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <img src="../img/logo.png" alt="logo">
 
     </a>
     Integrity and Assurance Module User Guide
@@ -188,6 +188,36 @@
   
   
     <li class="md-nav__item">
+      <a href="../purpose/" class="md-nav__link">
+        Purpose
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../high-level/" class="md-nav__link">
+        High Level Design
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../getting-started/" class="md-nav__link">
         Getting Started
       </a>
@@ -201,20 +231,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        User Management
+    <li class="md-nav__item">
+      <a href="../dashboard/" class="md-nav__link">
+        Dashboard
       </a>
-      
     </li>
   
 
@@ -279,6 +300,59 @@
   
 
     
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          User Management
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        User Management
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#user-management-features" class="md-nav__link">
+    User Management features
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -297,6 +371,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#user-management-features" class="md-nav__link">
+    User Management features
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -309,14 +398,32 @@
                 
                 
                 <h1 id="user-management">User Management</h1>
-<p>The Integrity and Assurance Module - Audit Component that has been tested is an automation of
-UNHCR manual process of the risk-based selection of projects, which includes selection of
-projects to audit, engagement of auditors, field offices and partners interaction among stakeholders
-during audit process (UNHCR HQs, UNHCR Field, Auditors, Partner). The new tool also
-implements online the tracking filed audit process, reporting and follow-up of audit results,
-managing key performance indicators, coordinated flow of notifications and communications,
-documentation hub and work areas, streamlined processes from inception to end, instant views with
-dashboards and analysis facilities</p>
+<p>The User Management feature is dedicated to the management of users that need to operate on the Integrity and Assurance Module. The User Management Component is managed at HQ Admin User level and enable the life cycle management of users accessing the Audit Module.</p>
+<p>On the Integrity and Assurance module can operate different types of users and with different roles:</p>
+<ul>
+<li>HQ Admin Users</li>
+<li>Field Office Users</li>
+<li>Auditors</li>
+<li>Partners</li>
+</ul>
+<h2 id="user-management-features">User Management features</h2>
+<ul>
+<li>
+<p><strong>Centralized Management by HQ Users</strong>: user access and user roles are managed by HQ users. Only users with HQ role (HQ-Preparer, HQ-Reviers, HQ Approver) are enabled to view the User management component on the left menu and are allowed to add/enable/disable/change role of users acessig the Audit Module</p>
+</li>
+<li>
+<p><strong>Add new users</strong>: on the User Management are it is possible to add a new user entitled to access the Integrity &amp; Module and to assign user a specific role.</p>
+</li>
+<li>
+<p><strong>Notification to newly added users</strong> containing an invitation and URL to the system.</p>
+</li>
+<li>
+<p><strong>Enable/Disable Users</strong>: User added on the system cannot be deleted but instead disabled. Status of a user that has been added to the system can be Active/Not Active</p>
+</li>
+<li>
+<p><strong>Edit User</strong>: users details can be modified (Full Name, Email, User Type, User Role and Country)</p>
+</li>
+</ul>
                 
               
               
@@ -334,7 +441,7 @@ dashboards and analysis facilities</p>
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../getting-started/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../audit/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -343,25 +450,11 @@ dashboards and analysis facilities</p>
               <span class="md-footer__direction">
                 Previous
               </span>
-              Getting Started
+              Audit Process
             </div>
           </div>
         </a>
       
-      
-        <a href="../field-assessment/" class="md-footer__link md-footer__link--next" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Field Assessment
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
       
     </nav>
   

@@ -9,7 +9,7 @@
       
       
       
-      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <link rel="shortcut icon" href="../img/favicon.ico">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.0">
     
     
@@ -36,6 +36,8 @@
     
     
     
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
     
       
     
@@ -58,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#getting-started" class="md-skip">
+        <a href="#field-assessment" class="md-skip">
           Skip to content
         </a>
       
@@ -73,8 +75,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="Integrity and Assurance Module User Guide" class="md-header__button md-logo" aria-label="Integrity and Assurance Module User Guide">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <img src="../img/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -156,8 +157,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="Integrity and Assurance Module User Guide" class="md-nav__button md-logo" aria-label="Integrity and Assurance Module User Guide">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <img src="../img/logo.png" alt="logo">
 
     </a>
     Integrity and Assurance Module User Guide
@@ -188,6 +188,36 @@
   
   
     <li class="md-nav__item">
+      <a href="../purpose/" class="md-nav__link">
+        Purpose
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../high-level/" class="md-nav__link">
+        High Level Design
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../getting-started/" class="md-nav__link">
         Getting Started
       </a>
@@ -203,8 +233,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../user-management/" class="md-nav__link">
-        User Management
+      <a href="../dashboard/" class="md-nav__link">
+        Dashboard
       </a>
     </li>
   
@@ -249,8 +279,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#test" class="md-nav__link">
-    Test
+  <a href="#field-assessment-review" class="md-nav__link">
+    Field Assessment Review
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#field-assessments-approval" class="md-nav__link">
+    Field assessments Approval
   </a>
   
 </li>
@@ -308,6 +345,21 @@
   
 
     
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-management/" class="md-nav__link">
+        User Management
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -333,8 +385,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#test" class="md-nav__link">
-    Test
+  <a href="#field-assessment-review" class="md-nav__link">
+    Field Assessment Review
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#field-assessments-approval" class="md-nav__link">
+    Field assessments Approval
   </a>
   
 </li>
@@ -352,16 +411,56 @@
               
                 
                 
-                <h1 id="getting-started">Getting Started</h1>
-<p>The Integrity and Assurance Module - Audit Component that has been tested is an automation of
-UNHCR manual process of the risk-based selection of projects, which includes selection of
-projects to audit, engagement of auditors, field offices and partners interaction among stakeholders
-during audit process (UNHCR HQs, UNHCR Field, Auditors, Partner). The new tool also
-implements online the tracking filed audit process, reporting and follow-up of audit results,
-managing key performance indicators, coordinated flow of notifications and communications,
-documentation hub and work areas, streamlined processes from inception to end, instant views with
-dashboards and analysis facilities</p>
-<h2 id="test">Test</h2>
+                <h1 id="field-assessment">Field Assessment</h1>
+<p>Field Assessment is the section where HQ Admins and Field Office users are able to view / edit the score for the value BU+Partner.</p>
+<p>Field Assessment area is available on the system to HQ Admin users. In this HQ Admin they will have the visibility of Field Assessment overall status, with a dashboard listing all Business Units pending action with possibility (buttons) to send notification reminders.</p>
+<p>Field Assessment for Field Office Users section will list only the values BU+Partner of the Business Unit listed on the User Profile. Field Office users will be able to amend the score of each listed entry BU+Partner and to submit the change on the system.</p>
+<h2 id="field-assessment-review">Field Assessment Review</h2>
+<p>Open the menu here:
+<img alt="Side menu" src="../img/field-assesment-1.png" /></p>
+<p>System will retrieve all the Partnership Agreements for the Audit Cycle in progress.
+<img alt="Projects" src="../img/field-assesment-2.png" /></p>
+<p>For adding field assessment for one project, click on the edit button on the given line:</p>
+<p><img alt="edit button" src="../img/field-assesment-3.png" />.</p>
+<p>The modal opens for adding all the required details for one project:</p>
+<p><img alt="Modal" src="../img/field-assesment-4.png" /></p>
+<ul>
+<li>Add the score for the project</li>
+<li>Add the UNHCR Audit Focal Point</li>
+<li>Add the UNHCR Audit Alternate Focal Point</li>
+<li>Add the Partner Focal Point</li>
+<li>Add the Partner Alternate Focal Point (optional)</li>
+</ul>
+<p>Note:.</p>
+<ul>
+<li>
+<p><em>UNHCR Audit Focal Point:
+Field office user entitled to act as Auditor focal point if the project is selected for Audit process.</em></p>
+</li>
+<li>
+<p><em>UNHCR Audit Alternate Focal Point:
+Field office user entitled to act as Auditor focal point alternate if the project is selected for Audit process.</em></p>
+</li>
+<li>
+<p><em>Partner Focal Point:
+Partner user entitled to act as focal point for Auditors if the project is selected for Audit process.</em></p>
+</li>
+<li>
+<p><em>Partner Alternate Focal Point (optional)
+Partner user entitled to act as focal point alternate for Auditors if the project is selected for Audit process.</em></p>
+</li>
+</ul>
+<p>To confirm the assessment select Submit</p>
+<p>Once the assessment is added successfully, the given line with the project becomes white:
+<img alt="Assessed project" src="../img/field-assesment-6.png" /></p>
+<p>Once all the projects are assessed, (that is, all lines are white) the reviewer can submit the list of assessed projects to the approver with clicking on the button ‘COMPLETE’. The button will be enabled only once all assessments are done at reviewer level:</p>
+<p><img alt="Complete button" src="../img/field-assesment-7.png" /></p>
+<h2 id="field-assessments-approval">Field assessments Approval</h2>
+<p>Once the field assessment is conducted by the reviewer(s), approvers will receive an e-mail system notification, informing the Review of the Project Agreements pertaining to the specific business unit has been completed.</p>
+<p>Approvers, once logged into the system, can navigate to Field Assessments menu.</p>
+<p>Approvers can check the added scores and other values to each project and can align and modify the assessment.</p>
+<p>Once the approver cross-checked the list of assessments and is confident with the added values and correctness, the approver can finalize the assessment with sending the assessment to HQ:</p>
+<p><img alt="Send to HQ" src="../img/field-assesment-8.png" /></p>
                 
               
               
@@ -379,7 +478,7 @@ dashboards and analysis facilities</p>
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../user-management/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../dashboard/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -388,7 +487,7 @@ dashboards and analysis facilities</p>
               <span class="md-footer__direction">
                 Previous
               </span>
-              User Management
+              Dashboard
             </div>
           </div>
         </a>
